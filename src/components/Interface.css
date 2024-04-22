@@ -1,10 +1,13 @@
 
 .hero {
-    /* background-image: url('hero.jpg'); */
+    background-image: url(https://get.chownow.com/wp-content/uploads/best-food-delivery-service-for-restaurants.png);
+    background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    color: #fff;
-    padding: 100px 20px;
+    /* margin-top: 50px; */
+    /* color: #fff; */
+    padding: 200px 30px;
+
 }
 
 .hero h2 {
@@ -28,20 +31,23 @@ button {
 .featured {
     text-align: center;
     padding: 50px 20px;
+    /* margin-top: -250px; */
 }
 
 .featured h2 {
-    font-size: 30px;
+    margin-top: -20px;
+    font-size: 40px;
 }
 
 .dish {
+    background-color: #c6bbbb;
     display: inline-block;
     margin: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .dish img {
-    width: 200px;
+    width: 300px;
     height: 200px;
     border-radius: 5px;
 }
@@ -51,7 +57,26 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
+    width: 100%;
+}
+.dish p{
+    width: 300px;
+    height: 100px;
+}
+.menu{
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.b4ZR3Nf5_d7oQVjxpTUukQHaDF&pid=Api&P=0&h=220);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+    /* height: 1000px; */
+
+}
+
+.navbar{
+    position: fixed;
     width: 100%;
 }

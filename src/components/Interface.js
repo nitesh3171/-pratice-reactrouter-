@@ -8,28 +8,34 @@ function Interface(){
     return (
  
   <div>
+    <div>
     <section className="hero">
         <h2>Delicious Food Delivered Right to Your Door</h2>
         <p>Order now and enjoy a wide range of cuisines from the comfort of your home!</p>
-        <button>Order Now</button>
     </section>
+    </div>
 
     <section className="featured">
         <h2>Featured Dishes</h2>
+        <div className='menu'>
         <div class="dish">
             <img src={Food1} alt="Dish 1"></img>
             <h3>Dish 1 Name</h3>
             <p>This is very popular dish of Maharasrta name is Chicken palaza</p>
+            <button>Order Now</button>
         </div>
         <div className="dish">
             <img src={Food2} alt="Dish 2"></img>
             <h3>Dish 2 Name</h3>
             <p>This is famous dish of Solapur name is Crispy Potato </p>
+            <button>Order Now</button>
         </div>
         <div className="dish">
             <img src={Food3} alt="Dish 3"></img>
             <h3>Dish 3 Name</h3>
             <p>This is famous dish of Nanded name is Samosa which made with Potato and deep fry in oil</p>
+        <button>Order Now</button>
+        </div>
         </div>
     </section>
     <footer>
