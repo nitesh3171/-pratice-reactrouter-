@@ -34,7 +34,7 @@ function Interface(){
             <img src={Food3} alt="Dish 3"></img>
             <h3>Dish 3 Name</h3>
             <p>This is famous dish of Nanded name is Samosa which made with Potato and deep fry in oil</p>
-        <button>Order Now</button>
+        <button >Order Now</button>
         </div>
         </div>
     </section>
