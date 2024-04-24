@@ -18,9 +18,9 @@
     font-size: 18px;
 }
 
-button {
+.btn {
     background-color: #f44336;
-    color: #fff;
+    color: #f6f0f0;
     border: none;
     padding: 10px 20px;
     font-size: 18px;
